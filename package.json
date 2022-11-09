@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "name": "twitterclone2",
+  "description": "Made with bootstrap, scss & JavaScript.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudeloba/twitterclone2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudeloba/twitterclone2/issues"
+  },
+  "homepage": "https://github.com/claudeloba/twitterclone2#readme"
+}
