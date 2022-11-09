@@ -1,1 +1,3 @@
-# twitterclone2
+# Twitter Clone: Kvitter
+
+Made with bootstrap, scss & JavaScript.

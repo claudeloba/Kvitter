@@ -1,0 +1,76 @@
+container:
+
+row:
+
+row-cols-3: 
+
+col :
+
+col-"1->x":
+
+g(0-5):
+
+p:
+
+m:
+
+card:
+
+card-body:
+
+card-text:
+
+card-title:
+
+card-subtitle:
+
+display-(1-6):
+
+bottom-card: 
+
+rounded-circle: 
+
+border: 
+
+border-bottom/top/start/end: 
+
+d-none:
+
+d-block:
+
+d-flex:
+
+flex-row:
+
+align-items-center:
+
+
+""-sm =
+
+""-md =
+
+""-lg =
+
+""-xl =
+
+btn =
+
+btn-primary/dark/etc =
+
+text-muted: 
+
+form-control:
+
+form-control-lg: 
+
+fw-normal: 
+
+overflow-scroll:
+
+form-floating:
+
+rounded-pill:
+
+form-label:
+
+bg-light/primary/dark/danger/etc... : 
