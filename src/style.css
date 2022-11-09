@@ -1,0 +1,153 @@
+:root {
+  --color-one: #e7e8da;
+  --color-two: #e0b233;
+  --color-three: #6ab7c4;
+  --color-four: #d68c83;
+  --color-five: #271b17;
+  --font-header: "Roboto", sans-serif;
+  --font-paragraph: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+ul [class*="fa-"],
+ul .bi-three-dots {
+  font-size: 26px;
+  width: 38px;
+  max-width: 38px;
+  text-align: center;
+}
+
+ul h5 {
+  margin-right: auto;
+}
+
+.sidebtn {
+  font-size: 16px;
+  padding: 10px 12px;
+  width: 188px;
+  border-width: 0px;
+  border-radius: 28px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.mainbtn {
+  font-size: 16px;
+  padding: 10px 12px;
+  width: 131px;
+  border-width: 0px;
+  border-radius: 28px;
+  height: 48px;
+  font-weight: bold;
+}
+
+.card-body h1 {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.card-text {
+  margin-top: -3px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.far.fa-image {
+  margin-left: 80px;
+}
+
+.tweet-icons {
+  font-size: 15px;
+}
+
+.row-cols-3 {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 100vw;
+  margin: auto;
+}
+
+.search-field {
+  width: 100%;
+  margin-bottom: 30px;
+  color: rgb(33, 37, 41);
+}
+
+.column3 {
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.form-floating {
+  margin-top: 15px;
+}
+
+.maincol {
+  margin: 0 auto;
+  width: 49%;
+}
+@media (min-width: 550px) {
+  .row-cols-3 {
+    max-width: 1200px;
+  }
+  .container {
+    max-width: auto;
+  }
+}
+
+@media (max-width: 790px) {
+  .maincol {
+    width: 70%;
+  }
+}
+
+.link-unstyled,
+.link-unstyled:hover,
+.link-unstyled:link {
+  color: inherit;
+  text-decoration: inherit;
+}
