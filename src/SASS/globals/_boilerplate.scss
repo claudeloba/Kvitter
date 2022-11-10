@@ -21,3 +21,13 @@ body {
 img {
   width: 100%;
 }
+
+.visuallyhidden {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}

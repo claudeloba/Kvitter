@@ -7,20 +7,20 @@ $primary: #1da1f2;
   max-width: 100vw;
   margin: 0 auto;
 }
-// @mixin text-hover {
-//   text-decoration: none;
-//   background-image: linear-gradient(currentColor, currentColor);
-//   background-position: 50% 100%;
-//   background-repeat: no-repeat;
-//   background-size: 0% 2px;
-//   transition: background-size 0.3s;
+@mixin text-hover {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
 
-//   &:hover,
-//   &:focus {
-//     opacity: 0.9;
-//     background-size: 100% 2px;
-//   }
-// }
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+    background-size: 100% 2px;
+  }
+}
 
 .link-unstyled,
 .link-unstyled:hover,
@@ -64,6 +64,10 @@ $primary: #1da1f2;
 ul {
   a {
     display: block;
+
+    &:hover h5 {
+      font-weight: bold !important;
+    }
   }
 
   [class*="fa-"],

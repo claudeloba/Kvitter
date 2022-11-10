@@ -39,120 +39,120 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <div class="container" style="height: 100vh; width: 100vw">
+    <main class="container" style="height: 100vh; width: 100vw">
       <div
         class="row row-cols-3 g-0 flex-wrap gx-4 justify-content-end"
         style="height: 100vh; width: 100vw"
       >
-        <div class="col-2 col-md-3" style="max-height: 100vh">
+        <header class="col-2 col-md-3" style="max-height: 100vh">
           <div class="card border-0" style="height: 100vh">
             <ul class="list-unstyled mt-md-2 mt-4 p-4 pt-0">
               <li>
-                <a
-                  class="link-unstyled navlinks"
-                  href="#"
-                  alt="Company Logo. Click for home."
+                <a class="link-unstyled navlinks" href="#"
                   ><img
                     class="d-none d-md-block"
                     src="./src/Assets/IMG/logo.png"
                     style="max-width: 50px; margin: 16px 0"
+                    alt="Company Logo. Click for home."
                   />
                 </a>
               </li>
 
-              <li>
+              <li aria-label="Click for home.">
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-solid fa-house me-2 navlinks"></i>
                   <h5 class="d-none d-md-block">Hem</h5>
                 </a>
               </li>
 
-              <li class="d-none d-md-inline-flex navlinks">
+              <li
+                aria-label="Click to explore."
+                class="d-none d-md-inline-flex navlinks"
+              >
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-regular fa-hashtag me-2"></i>
                   <h5>Utforska</h5>
                 </a>
               </li>
 
-              <li class="d-block d-md-none navlinks">
+              <li
+                aria-label="Click for search."
+                class="d-block d-md-none navlinks"
+              >
                 <a
                   class="d-flex flex-row align-items-center mb-4 d-block d-md-none link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
               </li>
 
-              <li class="navlinks">
+              <li aria-label="Click for notice." class="navlinks">
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-regular fa-bell me-2"></i>
                   <h5 class="d-none d-md-block">Notiser</h5>
                 </a>
               </li>
-              <li class="navlinks2">
+              <li aria-label="Click for direct messages." class="navlinks2">
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-regular fa-envelope me-2"></i>
                   <h5 class="d-none d-md-block">Meddelanden</h5>
                 </a>
               </li>
-              <li class="navlinks2">
+              <li aria-label="Click for bookmarks." class="navlinks2">
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-regular fa-bookmark me-2"></i>
                   <h5 class="d-none d-md-block">Bokmärken</h5>
                 </a>
               </li>
-              <li class="navlinks2">
+              <li aria-label="Click for saved lists." class="navlinks2">
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-regular fa-rectangle-list me-2"></i>
                   <h5 class="d-none d-md-block">Listor</h5>
                 </a>
               </li>
-              <li class="navlinks2">
+              <li aria-label="Click for profile." class="navlinks2">
                 <a
                   class="d-flex flex-row align-items-center mb-4 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="fa-regular fa-user me-2"></i>
                   <h5 class="d-none d-md-block">Profil</h5>
                 </a>
               </li>
-              <li class="navlinks2" style="margin-top: -8px">
+              <li
+                aria-label="Click for more."
+                class="navlinks2"
+                style="margin-top: -8px"
+              >
                 <a
                   class="d-flex flex-row align-items-center mb-2 link-unstyled"
                   href="#"
-                  alt="Company Logo. Click for home."
                 >
                   <i class="bi bi-three-dots me-2"></i>
                   <h5 class="d-none d-md-block">Mer</h5>
                 </a>
               </li>
               <button
+                aria-label="Click to post."
                 class="btn btn-primary sidebtn d-none d-md-block"
                 type="button"
               >
@@ -161,11 +161,14 @@
             </ul>
 
             <div
+              tabindex="0"
               class="card-body d-flex flex-row justify-content-evenly align-items-end align-content-center"
             >
               <img
                 class="user-pic profile-picture rounded-circle"
                 src="./src/Assets/IMG/116134_PT1.jpg"
+                alt="Your profile picture."
+                aria-label="Click for Home."
               />
               <div class="bottom-card d-none d-md-block">
                 <h4>Dog</h4>
@@ -174,7 +177,7 @@
               <i class="bi bi-three-dots mb-4 ms-auto d-none d-md-block"></i>
             </div>
           </div>
-        </div>
+        </header>
         <div
           class="maincol col-8 col-sm-8 col-md-5 overflow-scroll border"
           style="height: 100vh"
@@ -184,6 +187,8 @@
             <img
               class="d-xl-flex profile-picture mt-3 rounded-circle"
               src="./src/Assets/IMG/116134_PT1.jpg"
+              alt="Your profile picture."
+              aria-label="Click for Home."
             />
             <input
               class="form-control form-control-lg"
@@ -194,6 +199,7 @@
               autofocus
               placeholder="Vad händer?"
               name="Tweet"
+              id="tweet"
               style="
                 padding-bottom: 20px;
                 width: 100%;
@@ -203,19 +209,35 @@
               "
             />
           </div>
+          <label
+            for="tweet"
+            class=".visuallyhidden invisible"
+            style="font-size: 1px; padding: 0; margin: 0"
+            >Vad händer?</label
+          >
 
           <div class="d-flex align-items-center">
-            <i class="far fa-image text-primary pe-2"></i>
-            <i class="far fa-file-video text-primary pe-2"></i>
-            <i
-              class="fas fa-list-ul text-primary pe-2 d-none d-sm-inline-block"
-            ></i>
-            <i
-              class="far fa-smile text-primary pe-2 d-none d-sm-inline-block"
-            ></i>
-            <i
-              class="far fa-calendar-times text-primary pe-2 d-none d-md-inline-block"
-            ></i>
+            <a href="#" aria-label="..."
+              ><i class="far fa-image text-primary pe-2 me-3"></i
+            ></a>
+            <a href="#" aria-label="..."
+              ><i class="far fa-file-video text-primary pe-2 me-3"></i
+            ></a>
+            <a href="#" aria-label="..."
+              ><i
+                class="fas fa-list-ul text-primary pe-2 d-none d-sm-inline-block me-3"
+              ></i
+            ></a>
+            <a href="#" aria-label="..."
+              ><i
+                class="far fa-smile text-primary pe-2 d-none d-sm-inline-block me-3"
+              ></i
+            ></a>
+            <a href="#" aria-label="..."
+              ><i
+                class="far fa-calendar-times text-primary pe-2 d-none d-md-inline-block me-3"
+              ></i
+            ></a>
 
             <button
               class="btn btn-primary btn ms-auto"
@@ -231,467 +253,388 @@
               Kvittra
             </button>
           </div>
-
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
+          <article>
+            <div tabindex="0">
+              <div class="d-flex">
+                <img
+                  class="profile-picture rounded-circle me-0"
+                  src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
+                  style="margin-top: 15px"
+                />
+                <div
+                  class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                >
+                  <div class="card-body align-self-start">
+                    <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
+                    <i class="fas fa-check-circle text-primary"></i>
+                    <h1
+                      class="fw-normal text-muted d-inline-flex mb-2"
+                      style="font-size: 14px"
+                    >
+                      @CatOnTwitter 🞄 19h
+                    </h1>
+                    <p class="card-text">Shut up.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
+              <div
+                class="tweet-icons border-bottom d-flex justify-content-evenly"
+              >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Comment on this tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
+                      ></i>
+                      4
+                    </p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Retweet this tweet">
+                    <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Like the tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
+                      ></i
+                      >1
+                    </p>
+                  </div></a
+                >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex my-auto" aria-label="Share this tweet.">
+                    <p>
+                      <i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120
+                    </p>
+                  </div></a
+                >
               </div>
             </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
+            <div tabindex="0">
+              <div class="d-flex">
+                <img
+                  class="profile-picture rounded-circle me-0"
+                  src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
+                  style="margin-top: 15px"
+                />
+                <div
+                  class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                >
+                  <div class="card-body align-self-start">
+                    <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
+                    <i class="fas fa-check-circle text-primary"></i>
+                    <h1
+                      class="fw-normal text-muted d-inline-flex mb-2"
+                      style="font-size: 14px"
+                    >
+                      @CatOnTwitter 🞄 19h
+                    </h1>
+                    <p class="card-text">Shut up.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
+              <div
+                class="tweet-icons border-bottom d-flex justify-content-evenly"
+              >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Comment on this tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
+                      ></i>
+                      4
+                    </p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Retweet this tweet">
+                    <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Like the tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
+                      ></i
+                      >1
+                    </p>
+                  </div></a
+                >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex my-auto" aria-label="Share this tweet.">
+                    <p>
+                      <i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120
+                    </p>
+                  </div></a
+                >
               </div>
             </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
+            <div tabindex="0">
+              <div class="d-flex">
+                <img
+                  class="profile-picture rounded-circle me-0"
+                  src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
+                  style="margin-top: 15px"
+                />
+                <div
+                  class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                >
+                  <div class="card-body align-self-start">
+                    <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
+                    <i class="fas fa-check-circle text-primary"></i>
+                    <h1
+                      class="fw-normal text-muted d-inline-flex mb-2"
+                      style="font-size: 14px"
+                    >
+                      @CatOnTwitter 🞄 19h
+                    </h1>
+                    <p class="card-text">Shut up.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
+              <div
+                class="tweet-icons border-bottom d-flex justify-content-evenly"
+              >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Comment on this tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
+                      ></i>
+                      4
+                    </p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Retweet this tweet">
+                    <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Like the tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
+                      ></i
+                      >1
+                    </p>
+                  </div></a
+                >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex my-auto" aria-label="Share this tweet.">
+                    <p>
+                      <i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120
+                    </p>
+                  </div></a
+                >
               </div>
             </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
+            <div tabindex="0">
+              <div class="d-flex">
+                <img
+                  class="profile-picture rounded-circle me-0"
+                  src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
+                  style="margin-top: 15px"
+                />
+                <div
+                  class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                >
+                  <div class="card-body align-self-start">
+                    <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
+                    <i class="fas fa-check-circle text-primary"></i>
+                    <h1
+                      class="fw-normal text-muted d-inline-flex mb-2"
+                      style="font-size: 14px"
+                    >
+                      @CatOnTwitter 🞄 19h
+                    </h1>
+                    <p class="card-text">Shut up.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
+              <div
+                class="tweet-icons border-bottom d-flex justify-content-evenly"
+              >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Comment on this tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
+                      ></i>
+                      4
+                    </p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Retweet this tweet">
+                    <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Like the tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
+                      ></i
+                      >1
+                    </p>
+                  </div></a
+                >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex my-auto" aria-label="Share this tweet.">
+                    <p>
+                      <i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120
+                    </p>
+                  </div></a
+                >
               </div>
             </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
+            <div tabindex="0">
+              <div class="d-flex">
+                <img
+                  class="profile-picture rounded-circle me-0"
+                  src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
+                  style="margin-top: 15px"
+                />
+                <div
+                  class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                >
+                  <div class="card-body align-self-start">
+                    <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
+                    <i class="fas fa-check-circle text-primary"></i>
+                    <h1
+                      class="fw-normal text-muted d-inline-flex mb-2"
+                      style="font-size: 14px"
+                    >
+                      @CatOnTwitter 🞄 19h
+                    </h1>
+                    <p class="card-text">Shut up.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
+              <div
+                class="tweet-icons border-bottom d-flex justify-content-evenly"
+              >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Comment on this tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
+                      ></i>
+                      4
+                    </p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Retweet this tweet">
+                    <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
+                  </div></a
+                >
+
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Like the tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
+                      ></i
+                      >1
+                    </p>
+                  </div></a
+                >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex my-auto" aria-label="Share this tweet.">
+                    <p>
+                      <i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120
+                    </p>
+                  </div></a
+                >
               </div>
             </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
+            <div tabindex="0">
+              <div class="d-flex">
+                <img
+                  class="profile-picture rounded-circle me-0"
+                  src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
+                  style="margin-top: 15px"
+                />
+                <div
+                  class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                >
+                  <div class="card-body align-self-start">
+                    <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
+                    <i class="fas fa-check-circle text-primary"></i>
+                    <h1
+                      class="fw-normal text-muted d-inline-flex mb-2"
+                      style="font-size: 14px"
+                    >
+                      @CatOnTwitter 🞄 19h
+                    </h1>
+                    <p class="card-text">Shut up.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
               <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
+                class="tweet-icons border-bottom d-flex justify-content-evenly"
               >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
-                </div>
-              </div>
-            </div>
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Comment on this tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
+                      ></i>
+                      4
+                    </p>
+                  </div></a
+                >
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
-                </div>
-              </div>
-            </div>
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Retweet this tweet">
+                    <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
+                  </div></a
+                >
 
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex" aria-label="Like the tweet.">
+                    <p>
+                      <i
+                        class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
+                      ></i
+                      >1
+                    </p>
+                  </div></a
+                >
+                <a href="#" aria-label="..." class="link-unstyled"
+                  ><div class="d-flex my-auto" aria-label="Share this tweet.">
+                    <p>
+                      <i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120
+                    </p>
+                  </div></a
+                >
               </div>
             </div>
-          </div>
-          <div class="tweet">
-            <div class="d-flex">
-              <img
-                class="profile-picture rounded-circle me-0"
-                src="./src/Assets/IMG/what_breed_is_my_cat_tx7-1970054345.jpg"
-                style="margin-top: 15px"
-              />
-              <div
-                class="card d-lg-flex justify-content-lg-start align-items-lg-center border-0"
-              >
-                <div class="card-body align-self-start">
-                  <h1 class="d-inline-flex fw-semibold">AngryCat</h1>
-                  <i class="fas fa-check-circle text-primary"></i>
-                  <h1
-                    class="fw-normal text-muted d-inline-flex mb-2"
-                    style="font-size: 14px"
-                  >
-                    @CatOnTwitter 🞄 19h
-                  </h1>
-                  <p class="card-text">Shut up.</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="tweet-icons border-bottom d-flex justify-content-evenly"
-            >
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-comment ms-4 ms-md-5 me-2 ms-lg-0"
-                  ></i>
-                  4
-                </p>
-              </div>
-              <div class="d-flex">
-                <p><i class="fa-solid fa-repeat me-2 ms-lg-0"></i>0</p>
-              </div>
-              <div class="d-flex">
-                <p>
-                  <i
-                    class="fa-regular fa-heart align-self-auto me-2 ms-lg-0"
-                  ></i
-                  >1
-                </p>
-              </div>
-              <div class="d-flex my-auto">
-                <p><i class="fa-regular fa-paper-plane me-2 ms-lg-0"></i>120</p>
-              </div>
-            </div>
-          </div>
+          </article>
         </div>
+
         <div class="column3 col-3 ms-2 d-none d-md-block overflow-scroll">
           <div class="form-floating">
             <input
@@ -702,7 +645,8 @@
             />
             <label for="Search" class="form-label">Sök på Kvitter</label>
           </div>
-          <div
+          <article
+            tabindex="0"
             class="card bg-light"
             style="
               margin-bottom: 10px;
@@ -711,7 +655,7 @@
               border-style: none;
             "
           >
-            <div class="card-body">
+            <div tabindex="0" class="card-body">
               <h5 class="card-title" style="margin-bottom: 17px">På gång</h5>
               <h1
                 class="display-6 text-muted card-subtitle mb-2"
@@ -723,7 +667,7 @@
                 Coca-cola slutar sälja läsk<br />
               </p>
             </div>
-            <div class="card-body">
+            <div tabindex="0" class="card-body">
               <h1
                 class="display-6 text-muted card-subtitle mb-2"
                 style="font-size: 12px; margin-top: 0px; margin-bottom: 0px"
@@ -740,7 +684,7 @@
                 3 890 Tweets<br />
               </h1>
             </div>
-            <div class="card-body">
+            <div tabindex="0" class="card-body">
               <h1
                 class="display-6 text-muted card-subtitle mb-2"
                 style="font-size: 12px; margin-top: 0px; margin-bottom: 0px"
@@ -752,8 +696,8 @@
                 Trump&#39;s death is fabricated, fact-checkers report<br />
               </p>
             </div>
-          </div>
-          <div
+          </article>
+          <article
             class="card bg-light"
             style="
               margin-bottom: 10px;
@@ -762,7 +706,7 @@
               border-style: none;
             "
           >
-            <div class="card-body">
+            <div tabindex="0" class="card-body">
               <h5 class="card-title" style="margin-bottom: 17px">På gång</h5>
               <h1
                 class="display-6 text-muted card-subtitle mb-2"
@@ -774,7 +718,7 @@
                 Coca-cola slutar sälja läsk<br />
               </p>
             </div>
-            <div class="card-body">
+            <div tabindex="0" class="card-body">
               <h1
                 class="display-6 text-muted card-subtitle mb-2"
                 style="font-size: 12px; margin-top: 0px; margin-bottom: 0px"
@@ -791,7 +735,7 @@
                 3 890 Tweets<br />
               </h1>
             </div>
-            <div class="card-body">
+            <div tabindex="0" class="card-body">
               <h1
                 class="display-6 text-muted card-subtitle mb-2"
                 style="font-size: 12px; margin-top: 0px; margin-bottom: 0px"
@@ -803,9 +747,9 @@
                 Trump&#39;s death is fabricated, fact-checkers report<br />
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
